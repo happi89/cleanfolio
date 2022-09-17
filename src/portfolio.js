@@ -1,19 +1,19 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
   homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
+  title: 'HP.',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Farhaan Patel',
+  role: 'Fullstack Developer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    'Experienced Web Developer adept in all stages of advanced web development. Knowledgeable in user interface, testing, and debugging processes. Bringing forth expertise in design, installation, testing and maintenance of web systems. Equipped with a diverse and promising skill set. Able to effectively self-manage during independent projects, as well as collaborate in a team setting.',
   resume: 'https://example.com',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/farhaan-patel-4658ba237/',
+    github: 'https://github.com/happi89',
   },
 }
 
@@ -21,51 +21,64 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Reddit',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Reddit Clone with posts, comments, up votes, downvotes, nested comments, Oauth, and subreddits',
+    stack: [
+      'NextJs',
+      'TypeScript',
+      'TRPC',
+      'TailwindCSS',
+      'Prisma',
+      'PostgreSQL',
+      'React Query',
+    ],
+    sourceCode: 'https://github.com/happi89/reddit/tree/main',
+    livePreview: 'https://reddit-happi89.vercel.app/',
   },
   {
-    name: 'Project 2',
+    name: 'Library',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Library App that keeps track of your books With GraphQL Subscriptions',
+    stack: ['React', 'NodeJS', 'Express', 'GraphQL', 'JWT', 'MongoDB'],
+    sourceCode: 'https://github.com/happi89/library/tree/master',
+    livePreview: 'https://library-ft54dv7br-happi89.vercel.app/',
   },
   {
-    name: 'Project 3',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    name: 'BlogList',
+    description: 'BlogList App where users post blogs for others to view!',
+    stack: ['React', 'NodeJS', 'ExpressJS', 'JWT', 'MongoDB'],
+    sourceCode: 'https://github.com/happi89/blog-list-fullstack',
+    livePreview: 'https://blog-list-fullstack-production.up.railway.app/',
   },
 ]
 
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
+  'Python',
   'JavaScript',
   'TypeScript',
+  'HTML',
+  'CSS',
+  'TailwindCSS',
   'React',
   'Redux',
-  'SASS',
-  'Material UI',
+  'NextJS',
+  'NodeJS',
+  'ExpressJS',
+  'GraphQL',
+  'MongoDb',
+  'PostgressSQL',
   'Git',
-  'CI/CD',
   'Jest',
-  'Enzyme',
+  'Cypress',
+  'React Native',
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'farhaanpatel99@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
