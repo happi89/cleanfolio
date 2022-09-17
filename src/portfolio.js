@@ -34,7 +34,7 @@ const projects = [
       'React Query',
     ],
     sourceCode: 'https://github.com/happi89/reddit/tree/main',
-    livePreview: 'https://reddit-happi89.vercel.app/',
+    livePreview: 'https://reddit-happi89.vercel.app/', //
   },
   {
     name: 'Library',
