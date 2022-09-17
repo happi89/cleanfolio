@@ -10,7 +10,7 @@ const about = {
   role: 'Fullstack Developer',
   description:
     'Experienced Web Developer adept in all stages of advanced web development. Knowledgeable in user interface, testing, and debugging processes. Bringing forth expertise in design, installation, testing and maintenance of web systems. Equipped with a diverse and promising skill set. Able to effectively self-manage during independent projects, as well as collaborate in a team setting.',
-  resume: 'https://example.com',
+  resume: '../../../public/resume.pdf',
   social: {
     linkedin: 'https://www.linkedin.com/in/farhaan-patel-4658ba237/',
     github: 'https://github.com/happi89',
